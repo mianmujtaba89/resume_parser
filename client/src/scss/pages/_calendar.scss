@@ -1,0 +1,121 @@
+#Schedule-interview {
+  .Schedule-heading {
+    font-size: $Fivefont-Size;
+    font-weight: $NormalBold;
+    color: $headingfont !important;
+    text-align: center;
+  }
+  .calendar {
+    width: 400px;
+    height: auto;
+    box-shadow: -3px -3px 6px $theme-WhiteColor, 3px 3px 6px $boxshadow-Color;
+    padding: 0;
+    margin: 0;
+  }
+  .Schedule-timing {
+    p {
+      margin-top: 5px;
+      font-size: $Fivefont-Size;
+      font-weight: $SemiBold;
+      color: $headingfont;
+    }
+    .button {
+      width: 104px;
+      height: 40;
+      border: 1px solid #cfcfcf;
+      border-radius: 8px;
+      font-size: $thirdfont-Size;
+      color: $theme-DarkColor;
+      background: inherit;
+    }
+    .button:focus {
+      background: $theme-BlueColor;
+      color: $theme-WhiteColor;
+      outline: 0 !important;
+      box-shadow: none;
+    }
+    .button:hover {
+      background: $theme-BlueColor;
+      color: $theme-WhiteColor;
+    }
+    .hiddeen {
+      caret-color: transparent;
+    }
+    .Schedule-date {
+      border-radius: 8px;
+      height: 116px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+      bottom: 0;
+      box-shadow: -3px -3px 6px $theme-WhiteColor, 3px 3px 6px $boxshadow-Color !important;
+      .para1 {
+        margin-left: 20px;
+        line-height: 0;
+        font-size: $Fivefont-Size;
+        font-weight: $Regular;
+        color: $headingfont;
+      }
+      .para2 {
+        margin-left: 20px;
+        line-height: 0;
+        font-size: $Forthfont-Size;
+        font-weight: $Regular;
+        color: $headingfont;
+      }
+      img {
+        position: absolute;
+        right: 0;
+        z-index: -1;
+        opacity: 0.8;
+      }
+    }
+  }
+  textarea {
+    width: 100% !important;
+    border: 1px solid #cfcfcf;
+    background: inherit !important;
+    height: 180px;
+    border-radius: 8px !important;
+    text-align: start !important;
+    color: $theme-DarkColor !important;
+    padding: 20px !important;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    resize: none;
+  }
+  ::placeholder {
+    color: $theme-DarkColor !important;
+    font-size: $Forthfont-Size;
+    font-weight: $NormalBold;
+  }
+  .Schedule-btn {
+    width: 100%;
+    margin: 0;
+    .jobCancelBtn {
+      width: 120px;
+      height: 40px;
+      font-size: 20px;
+      font-size: $thirdfont-Size;
+      font-weight: 400;
+      color: $headingfont-Color;
+      background: inherit;
+      border-radius: 8px;
+      border: 1px solid $theme-DarkColor;
+      margin-right: 30px;
+    }
+    .jobPostBtn {
+      width: 120px;
+      height: 40px;
+      font-size: 20px;
+      font-size: $thirdfont-Size;
+      font-weight: 400;
+      color: $theme-WhiteColor;
+      background: $theme-BlueColor;
+      border-radius: 8px;
+    
+    }
+  }
+  
+}

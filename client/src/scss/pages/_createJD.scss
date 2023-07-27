@@ -1,0 +1,92 @@
+.postJobSection {
+  .postTitle {
+    color: $headingfont-Color;
+    font-size: $firstfont-Size;
+    font-weight: 600;
+  }
+  .postHR {
+    border: 1px solid #3b3b3b;
+  }
+  .form-control-label {
+    color: $greyfont-Color;
+    font-size: $thirdfont-Size;
+    font-weight: 600;
+    margin: 5px auto;
+  }
+  .form-check-label {
+    font-size: $thirdfont-Size;
+    font-weight: 400;
+  }
+  .form-select {
+    background-color: inherit;
+    color: #b1b1b1;
+    height: 48px;
+    border-radius: 10px;
+  }
+  .form-control:focus {
+    color: #b1b1b1 !important; 
+    background-color: inherit !important;
+    border-color: inherit !important;
+    outline: 0;
+    box-shadow: none;
+  }
+  .desInput {
+    background-color: inherit;
+    height: 223px;
+    border: 1px solid #b1b1b1;
+    border-radius: 10px;
+    text-align: start;
+    color: #b1b1b1;
+    padding: 20px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    word-spacing: 1px;
+    resize: none;
+  }
+  .form-check-input {
+    background-color: inherit;
+  }
+  .form-check-input:checked {
+    background-color: $theme-DarkColor;
+    border-color: $theme-DarkColor;
+  }
+  select:focus{
+    box-shadow: none;
+    border-color:$greyfont-Color ;
+  }
+  option{
+    background: $theme-OffwhiteColor;
+    border: none;
+  }
+  .RadioCheck {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .jobCancelBtn {
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    font-size: $thirdfont-Size;
+    font-weight: 400;
+    color: $headingfont-Color;
+    background: inherit;
+    border-radius: 8px;
+    border: 1px solid $theme-DarkColor;
+    margin-right: 30px;
+  }
+  .jobPostBtn {
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    font-size: $thirdfont-Size;
+    font-weight: 400;
+    color: $theme-WhiteColor;
+    background: $theme-BlueColor;
+    border-radius: 8px;
+  }
+}
+#result{
+  font-size: .8rem;
+  margin-left: 5px;
+}

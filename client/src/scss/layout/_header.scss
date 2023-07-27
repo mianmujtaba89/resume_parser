@@ -1,0 +1,78 @@
+// /*  ===============================================
+//     Top Navbar
+// ------------------------*/
+
+.headerOne {
+  top: 0;
+  right: 0;
+  z-index: 1;
+  height: 75px;
+  width: 100%;
+  background: $theme-OffwhiteColor;
+  border-bottom: 1px solid #d2d2d2;
+  transition: 0.6s ease;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 6px 10px #08296029;
+  .topMenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 16px;
+  }
+  .NavIcon {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 10px;
+    .nav-item {
+      padding: 0px 10px;
+      .nav-link {
+        position: relative;
+        img {
+          width: 25px;
+          height: 23px;
+        }
+      }
+    }
+  }
+}
+
+
+.header-popup {
+  width: 384px;
+  min-height: 226px;
+}
+.cc-blue{
+  color: #082960;
+}
+.cc-blue-grey{
+  color: #3b3b3b;
+}
+.popup-head {min-height: 64px;}
+.img-sm {height: 48px; width: 48px;}
+.icon-sm {font-size: 26px;}
+.fw-500{font-weight: 500;}
+.fs-sm {font-size: 14px;}
+.fs-xs {font-size: 12px;}
+.mh-48 {min-height: 48px;}
+.border-bottom-1{
+  border-bottom: 1px solid #b0b0b0;
+}
+.edit{
+  background: #fff;
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    width: 25px;
+    align-items: center;
+    border-radius: 50%;
+    height: 25px;
+    left: 26px;
+    bottom: -6px;
+    position: absolute;
+    box-shadow: 0px 0px 5px #000;
+}

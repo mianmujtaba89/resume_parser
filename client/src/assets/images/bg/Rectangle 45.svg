@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="602" height="372" viewBox="0 0 602 372">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" y1="1" x2="0" y2="0.021" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#052861"/>
+      <stop offset="1" stop-color="#4163a1"/>
+    </linearGradient>
+    <filter id="Rectangle_45" x="0" y="0" width="602" height="372" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+    </filter>
+    <filter id="Rectangle_45-2" x="0" y="0" width="602" height="372" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-2"/>
+      <feFlood flood-color="#fff" flood-opacity="0.239" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-2"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g data-type="innerShadowGroup">
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_45)">
+      <g id="Rectangle_45-3" data-name="Rectangle 45" transform="translate(20 20)" stroke="#707070" stroke-width="0.25" fill="url(#linear-gradient)">
+        <rect width="542" height="312" rx="16" stroke="none"/>
+        <rect x="0.125" y="0.125" width="541.75" height="311.75" rx="15.875" fill="none"/>
+      </g>
+    </g>
+    <rect id="Rectangle_45-4" data-name="Rectangle 45" width="542" height="312" rx="16" transform="translate(20 20)" fill="url(#linear-gradient)"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_45-2)">
+      <rect id="Rectangle_45-5" data-name="Rectangle 45" width="542" height="312" rx="16" transform="translate(20 20)" fill="#fff"/>
+    </g>
+    <g id="Rectangle_45-6" data-name="Rectangle 45" transform="translate(20 20)" fill="none" stroke="#707070" stroke-width="0.25">
+      <rect width="542" height="312" rx="16" stroke="none"/>
+      <rect x="0.125" y="0.125" width="541.75" height="311.75" rx="15.875" fill="none"/>
+    </g>
+  </g>
+</svg>

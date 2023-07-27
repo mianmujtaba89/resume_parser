@@ -1,0 +1,45 @@
+// YourComponent.scss
+
+
+
+.chips-container {
+  .p-chips-input-token {
+    display: inline-flex;
+    align-items: center;
+    width: 395px; /* Set your desired width */
+    height: 38px; /* Set your desired height */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: rgba(255, 255, 255, 0.497);
+    color: black; /* Set the focus color to black */
+    font-size: 14px; /* Set the input area font size */
+  }
+
+  .p-chips {
+    height: 40px; /* Set your desired height */
+    overflow-y: hidden;
+    background: rgba(255, 255, 255, 0.497);
+  }
+
+  .p-chips-token-icon {
+    background-color: transparent; /* Remove the background color of the token icon */
+  }
+
+  .p-chips-input-wrapper {
+    display: flex;
+    align-items: center; /* Center the text vertically */
+    justify-content: center; /* Center the text horizontally */
+    background-color: lightgray; /* Set the background color of the field area */
+    border: 1px solid black; /* Set the border of the field area */
+    border-radius: 4px; /* Set border-radius for rounded corners */
+    padding: 4px; /* Set padding for the field area */
+  }
+
+  .p-chips-input {
+    background-color: transparent; /* Set the background color of the input area */
+    border: none; /* Remove border of the input area */
+    outline: none; /* Remove focus outline */
+    width: 100%; /* Set the width to fill the available space */
+    font-size: 14px; /* Set the font size of the input area */
+  }
+}

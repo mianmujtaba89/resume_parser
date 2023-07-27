@@ -1,0 +1,183 @@
+#PaymentsSection {
+  position: relative;
+  .navbar {
+    margin-left: -10px;
+    a {
+      font-size:  $Fivefont-Size;
+      line-height: 30px;
+      padding: 20px 5px;
+      font-weight:  $Regular;
+    }
+    .active {
+      border-bottom: 3px solid $theme-DarkColor !important;
+    }
+  }
+  .LineInPayment {
+    margin: -11px;
+    border: 1.5px solid #3b3b3b;
+    background-color: #3b3b3b;
+  }
+  .creditHeading {
+    font-size:  $Fivefont-Size;
+    font-weight:  $Regular;
+    color: #3b3b3b;
+  }
+  .digit {
+    font-size: 16px;
+    font-weight:  $Regular;
+    color: #b1b1b1;
+    display: inline-block;
+  }
+  .cards {
+    display: inline-flex;
+    float: right;
+  }
+  .creditInput {
+    width: 100%;
+    height: 48px;
+    border-radius: 10px;
+    border: 1px solid #b1b1b1;
+    background: inherit;
+    color: #b1b1b1;
+    padding: 10px;
+  }
+  .payBtn {
+    background: $theme-BlueColor;
+    height: 50px;
+    font-size: $secondFontSize;
+    font-weight:  $Regular;
+    color: $theme-WhiteColor;
+    margin-top: 50px;
+    border-radius: 8px;
+    box-shadow: 0px 10px 20px #797878 ;
+  }
+  .secondCol {
+    height: 638px;
+    border-radius: 16px;
+    border: 1px solid #ebebeb;
+    box-shadow: -3px -3px 6px #ffffff, 3px 3px 20px #0000001a;
+    .topBar {
+      border: 6px solid #08398d;
+      background: #0b49b4;
+      border-radius: 8px;
+      margin: 0;
+      opacity: 1;
+      position: relative;
+      margin-top: -5px;
+      left: 10px;
+      width: 96px;
+      box-shadow: 15px 15px 20px $boxshadow-Color;
+    }
+    .Invoice {
+      font-size:  $Fivefont-Size;
+      font-weight: 500;
+      color: $headingfont;
+      padding: 20px;
+    }
+    .colOne {
+      width: 40%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      border-right: 1px solid #bdbdbd;
+      .interview-person {
+        background: #f6f6f6;
+        width: 90%;
+        // width: 276px;
+        height: 231px;
+        border-radius: 8px;
+        box-shadow: 0px 6px 10px $boxshadow-Color;
+        .hirePerson {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          height: 55%;
+          .name {
+            font-size: $Forthfont-Size;
+            font-weight:  $Regular;
+            color: $headingfont-Color;
+            line-height: 0px;
+          }
+          .skill {
+            font-size: 12px;
+            font-weight:  $Regular;
+            color: #3b3b3b;
+            line-height: 0px;
+          }
+        }
+
+        table {
+          border-collapse: collapse;
+          width: 80%;
+          margin: 0 30px;
+        }
+        td {
+          font-size: $Forthfont-Size;
+          font-weight:  $Regular;
+          color: $headingfont-Color;
+        }
+      }
+    }
+    .colTwo {
+      width: 60%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      .interview-debit {
+        background: #ebebff;
+        width: 100%;
+        height: 231px;
+        position: relative;
+        border-radius: 8px;
+        box-shadow: 0px 6px 10px $boxshadow-Color;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 30px;
+        .chip-name {
+          margin-left: 20px;
+          font-size: $Forthfont-Size;
+          font-weight:  $Regular;
+          color: #5d8dff;
+        }
+        p {
+          font-size:  $Fivefont-Size;
+          font-weight:  $Regular;
+          color: $theme-DarkColor;
+        }
+        .CV-Date {
+          font-size: 16px;
+          font-weight:  $Regular;
+          color: $theme-DarkColor;
+        }
+        .debitLogo {
+          position: absolute;
+          margin: 20px;
+          bottom: 0;
+          right: 0;
+        }
+      }
+      .interview-detail {
+        width: 100%;
+        height: 231px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 30px;
+        .tableTitle {
+          font-size: $Forthfont-Size;
+          font-weight:  $Regular;
+          color: $headingfont-Color;
+        }
+        .tableValue {
+          font-size: 16px;
+          font-weight: 600;
+          color: $headingfont-Color;
+        }
+      }
+    }
+  }
+}

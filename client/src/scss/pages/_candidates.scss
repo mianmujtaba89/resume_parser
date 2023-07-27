@@ -1,0 +1,443 @@
+/*================================================
+ Candidate & Posted Job CSS
+=============================================*/
+
+/*
+ Candidate Part
+*/
+.innerNavbar {
+  .active {
+    border-bottom: 4px solid #6314A8;
+  }
+  .nav-link {
+    font-size: 20px;
+    color: #6314A8;
+    font-weight: 400;
+     margin: 10px 28px;
+    .badge {
+      width: 26px;
+      height: 25px;
+      background: $theme-BlueColor;
+      color: $whitefont-Color;
+      font-size: 12px;
+      line-height: 18px;
+      display: inline-flex;
+      justify-content: center;
+      position: absolute;
+    }
+  }
+
+  .marginLeft {
+    padding: 0;
+  }
+}
+.navButtomHr {
+  position: relative;
+  left: 15px;
+  width: 99%;
+  margin: -21px;
+  border-top: 3px solid #828385;
+}
+.candidateContent {
+  width: 100%;
+}
+.allCandidate {
+  width: 59%;
+  max-height: 921px;
+  position: relative;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 10px;
+  border: none;
+  .CandidateBox {
+    height: 203px;
+    border: none;
+    border-radius: 8px;
+    margin: auto 0px;
+    overflow: hidden;
+    .imgSide {
+      width: 12%;
+      display: flex;
+      justify-content: center;
+    }
+    .contentSide {
+      width: 88%;
+    }
+  }
+  .CandidateBox:hover {
+    border: 1px solid $border-Color;
+    box-shadow: -3px -3px 6px $theme-WhiteColor, 3px 3px 6px $boxshadow-Color;
+    background-color: #f6f6f6;
+  }
+  .CandidateName {
+    display: inline-block;
+    h3 {
+      font-size: 18px;
+      color: $headingfont;
+      font-weight: 600;
+      text-transform: capitalize;
+      line-height: 15px;
+      padding-top: 10px;
+      span {
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: $greyfont-Color;
+        line-height: 15px;
+      }
+    }
+    h5 {
+      font-size: 14px;
+      font-weight: 500;
+      letter-spacing: 1px;
+      color: $greyfont-Color;
+      line-height: 15px;
+    }
+  }
+  .CandidateBtn {
+    float: right;
+    display: inline-block;
+    button {
+      width: 84px;
+      height: 24px;
+      color: $headingfont;
+      border: 1px solid $theme-DarkColor !important;
+      border-radius: 5px;
+      font-size: 10px;
+      background-color: inherit;
+      margin-top: 20px;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .textMore {
+    margin: 10px auto;
+    height: 50px;
+    display: block;
+    overflow: hidden;
+    line-height: 25px;
+  }
+  .seeMore {
+    font-size: 14px;
+    line-height: 15px;
+    color: $headingfont;
+  }
+}
+.CandidateDetail {
+  width: 40%;
+  max-height: 921px;
+  position: relative;
+  margin: auto;
+  border-radius: 16px;
+  box-shadow:-3px -3px 6px $theme-WhiteColor, 3px 3px 6px $boxshadow-Color;
+  background-color: #f6f6f6;
+ overflow-y: hidden;
+ &.right{
+  position: absolute;
+  right: 0;
+ }
+  .innerCandidateDetail {
+    height: 100%;
+    width: 99%;
+    padding: 0px 20px;
+    margin: 10px auto;
+    position: relative;
+    .bookmarks{
+      position: absolute;
+      right: 0;
+      margin: auto 10px ;
+      font-size: 24px;
+      color: $theme-BlueColor;
+    }
+  }
+  .postedInnerBox {
+    padding: 1px 20px 14px 20px;
+    margin: 8px auto;
+    height: auto;
+    border-radius: 16px;
+    box-shadow:-3px -3px 6px $theme-WhiteColor, 3px 3px 6px $boxshadow-Color;
+    background-color: #f6f6f6;
+  }
+  .ProfileDetail {
+    text-align: center;
+    h3 {
+      font-size: 18px;
+      color: $headingfont;
+      font-weight: 600;
+      text-transform: capitalize;
+      line-height: 15px;
+      padding-top: 10px;
+    }
+    h5 {
+      font-size: 14px;
+      font-weight: 500;
+      letter-spacing: 1px;
+      color: $greyfont-Color;
+      line-height: 15px;
+    }
+    p {
+      font-size: 14px;
+      font-weight: 400;
+      letter-spacing: 1px;
+      color: $greyfont-Color;
+      line-height: 25px;
+    }
+    .hiringBtn {
+      width: 120px;
+      height: 40px;
+      font-size: 16px;
+      font-weight: 400;
+      background: $theme-BlueColor;
+      color: $whitefont-Color;
+      margin: 0px 14px;
+      border-radius: 8px;
+      letter-spacing: 1px;
+    }
+    .scheduleBtn {
+      width: 144px;
+      height: 40px;
+      font-size: 16px;
+      font-weight: 400;
+      background-color: inherit;
+      color: $theme-DarkColor;
+      border: 1px solid $theme-DarkColor;
+      margin: 0px 14px;
+      border-radius: 8px;
+    }
+  }
+  .BasicInformation {
+    h5 {
+      font-size: 18px;
+      color: $headingfont;
+      font-weight: 600;
+      text-transform: capitalize;
+    }
+    .Information {
+      padding: 10px 0;
+    }
+
+    .infoKey {
+      font-size: 14px;
+      font-weight: 400;
+      letter-spacing: 1px;
+      color: $greyfont-Color;
+      line-height: 10px;
+    }
+    .infoValue {
+      font-size: 14px;
+      font-weight: 400;
+      letter-spacing: 1px;
+      color: $greyfont-Color;
+      line-height: 20px;
+    }
+  }
+  .skill {
+    h5 {
+      font-size: 18px;
+      color: $headingfont;
+      font-weight: 600;
+      text-transform: capitalize;
+    }
+    .skillSet {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      .skillKey {
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .skillValue {
+          width: 100px;
+          height: 35px;
+          border-radius: 12px;
+          border: 1px solid $theme-DarkColor;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 14px;
+          font-weight: 400;
+          letter-spacing: 1px;
+          color: $headingfont;
+          line-height: 25px;
+          margin-top: 10px;
+          background: inherit;
+        }
+      }
+    }
+  }
+  .EnlightenmentHeading {
+    h5 {
+      font-size: 18px;
+      color: $headingfont;
+      font-weight: 600;
+      text-transform: capitalize;
+    }
+  }
+  .EnlightenmentNavbar {
+    .active {
+      border-bottom: 4px solid #6314A8;
+    }
+  }
+  .innerFieldOne{
+    max-height: 227px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  
+  .EnlightenmentDetails {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    .EnlightenmentDiv {
+      height: 90px;
+    }
+    .educatoins {
+      h5 {
+        font-size: 18px;
+        color: $theme-DarkColor;
+        font-weight: 600;
+        text-transform: capitalize;
+      }
+      p {
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        color: $greyfont-Color;
+        line-height: 15px;
+        text-transform: capitalize;
+      }
+    }
+  }
+}
+.backgroundImage{
+  background-image: url('../../assets/images/bg/CreateProfileBackground.jpg');
+  background-position: center;
+  overflow: hidden;
+}
+
+@media (max-width: 1400px) {
+  .allCandidate {
+    .CandidateBox {
+      height: 250px;
+      position: relative;
+      .imgSide {
+        position: absolute;
+        display: block;
+        width: 100%;
+      }
+      .contentSide {
+        top: 80px;
+        position: absolute;
+        display: block;
+        width: 100%;
+      }
+    }
+    .CandidateBtn {
+      button {
+        width: 60px;
+        font-size: 8px;
+        margin-top: 23px;
+      }
+    }
+  }
+
+  .EnlightenmentHeading {
+    .innerEnlightenmentSet {
+      margin: 0;
+      background: #6c7e9c;
+    }
+  }
+} 
+/*
+ Posted Job Part
+*/
+.PostedJobInformation {
+  display: inline-block;
+  h3 {
+    font-size: 18px;
+    color: $headingfont;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 15px;
+    padding-top: 10px;
+    span {
+      font-size: 14px;
+      font-weight: 500;
+      letter-spacing: 1px;
+      color: $greyfont-Color;
+      line-height: 15px;
+    }
+  }
+  h5 {
+    font-size: 14px !important;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: $greyfont-Color;
+    line-height: 25px;
+  }
+}
+.needTiming {
+  float: right;
+  display: inline-block;
+  button {
+    width: 84px;
+    height: 24px;
+    color: $headingfont;
+    border: 1px solid $theme-DarkColor !important;
+    border-radius: 5px;
+    font-size: 10px;
+    background-color: inherit;
+    margin-top: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.aboutAmount {
+  a {
+    font-size: 14px;
+    color: $greyfont-Color !important;
+  }
+  span {
+    font-size: 20px !important;
+    color: $theme-DarkColor;
+  }
+}
+.p-tabview {
+  width: 100%;
+.p-tabview-panels {
+  background: inherit !important;
+  color: #6314A8 !important;
+  padding: 1.25rem 0 !important;
+  position: relative !important;
+}
+.p-tabview-nav {
+  background: inherit !important;
+
+
+  li .p-tabview-nav-link {
+    border: solid #dee2e6;
+    border-width: 0 0 2px 0;
+    border-color: none;
+    background: inherit !important;
+    color: #6314A8 !important;
+  }
+  li.p-highlight .p-tabview-nav-link {
+    background: inherit !important;
+    border-color: #6314A8 !important;
+    color: #6314A8 !important;
+  }
+  .p-tabview-ink-bar {
+    background-color: #6314A8 !important;
+  }
+}
+}
+
+.check{
+  .p-tabview .p-tabview-nav {
+    background: inherit !important;
+    display: flex;
+    justify-content: space-between;
+  }
+}

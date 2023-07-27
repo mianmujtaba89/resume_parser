@@ -1,0 +1,25 @@
+// Base
+@import "base/variables";
+@import "base/mixins";
+@import "base/rfs";
+@import "base/typography";
+
+// Layout
+@import "layout/sideMenuBar";
+@import "layout/header";
+
+// pages
+@import "pages/home";
+@import "pages/candidates";
+@import "pages/companyprofile";
+@import "pages/welcome";
+@import "pages/createJD";
+@import "pages/popup";
+@import "pages/payment";
+@import "pages/calendar";
+@import "pages/UserType";
+@import "pages/ApplyJob";
+@import "pages/CreateJob";
+@import "pages/LandingPage";
+@import "pages/ContactUs";
+@import "pages/AboutUs";

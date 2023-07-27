@@ -1,0 +1,209 @@
+/** 
+          1. scrollbar
+
+          2. Row-Equal-Height
+
+          3. Bg-Layer 
+
+          4. Section-Title 
+
+          5. sep_holder
+
+          6. Buttons
+
+          7. Icons
+
+          8. Fid
+
+          9. featured-icon-box
+
+          10. Featured-imagebox
+
+          11. Progress-Bar 
+
+          12. Testimonial
+
+          13. Client-row
+
+          14. Accordion
+
+          15. Wrap-Form
+
+          16. Tab
+
+          17. Boxes-Spacing
+
+          18. Sidebar
+
+          19. Timeline
+
+**/
+.main-container {
+  display: flex;
+}
+main {
+  position: absolute;
+  right: 0;
+  overflow: auto !important;
+  top: 75px;
+  width: 100%;
+  height: calc(100vh - 75px);
+  padding: 2rem;
+  z-index: 0;
+}
+.title {
+  font-size: 3rem;
+  display: grid;
+  place-items: center;
+}
+/* ===============================================
+    3.webkit-scrollbar
+------------------------*/
+::-webkit-scrollbar {
+  width: 4px;
+  background: none;
+}
+::-webkit-scrollbar-thumb {
+  background: $theme-BlueColor;
+  border-radius: 20px;
+}
+
+/* ===============================================
+    6. InnerContant
+------------------------*/
+
+.bgColor {
+  background: $theme-OffwhiteColor !important;
+}
+.PicUploadBtn {
+  background: $theme-BlueColor;
+  width: 100px;
+  border-radius: $BtnRedius;
+  font-size: 20px;
+  font-weight: 500;
+  color: $theme-WhiteColor;
+  margin: 10px 10px;
+}
+.boxShadow {
+  box-shadow: 3px 3px 10px #4e6e9141, -3px -3px 10px #ffffff;
+}
+/*
+ ===============================================
+    6. responsive Design CSS
+------------------------*/
+@media (max-width: 1650px) {
+  .cardContent {
+    padding: 0 10px;
+    p {
+      width: 250px;
+      font-size: 20px;
+      line-height: 30px;
+    }
+    a {
+      font-size: 20px;
+    }
+  }
+
+  .progress-Box {
+    .ProgressTitle {
+      padding-top: 18px;
+      h4 {
+        width: 100px;
+        height: 36px;
+        text-align: center;
+        font-size: 20px;
+        line-height: 1;
+      }
+      h3 {
+        padding: 10px 0px;
+        line-height: 1;
+        width: 80px;
+        text-align: center;
+      }
+    }
+  }
+}
+/* ===============================================
+    2.authenticatiom CSS
+------------------------*/
+.authenticatio-Box {
+  background: #f5030350;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0 !important;
+  overflow: hidden;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+}
+.authInput {
+  background: none;
+  width: 100%;
+  height: 48px;
+  border-radius: 8px;
+  border: 1px solid #cfcfcf;
+  padding: 10px;
+  color: #292828;
+  font-size: 16px;
+  margin: 8px auto;
+}
+::placeholder {
+  color: #a7a6a6;
+}
+.eyeIcon {
+  display: inline-block;
+  position: relative;
+  top: 4px;
+  margin-left: -45px;
+  font-size: 26px;
+  line-height: 10px;
+  color: $theme-DarkColor;
+}
+.from-error {
+  color: rgb(230, 22, 22);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 4px;
+}
+.spinner{
+  z-index: 3;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  background-color: #c7c7c78f;
+}
+
+
+.max-w{
+  max-width: 330px;
+}
+
+.ZIn-2{
+  position: relative;
+  z-index: 2;
+}
+
+.display-b{
+  display: block !important;
+}
+
+.skillBox{
+  white-space: nowrap;
+  width: auto !important;
+  text-overflow: ellipsis;
+  text-align: left !important;
+  padding: 8px 13px;
+}
+
+
+
+// For Resume section
+.mainBox{
+  position: relative;
+  top: 30px;
+}

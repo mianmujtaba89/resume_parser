@@ -1,0 +1,94 @@
+.companyContent {
+  // background: $theme-threeColor, url("../../assets/images/bg/CreateProfileBackground.jpg");
+  box-shadow: 3px 3px 6px #0000004d inset;
+  background-size: cover;
+  background-position: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CreateProfileBox {
+  width: 75%;
+  height: 95%;
+  opacity: 100%;
+  margin: 0;
+  background: rgba(255, 255, 255, 0.146);
+  backdrop-filter: blur(30px);
+  padding: 60px 0;
+  border-radius: 24px;
+
+  .CompanyForm {
+    width: 75%;
+    margin: auto;
+  }
+  .CreateProfileTitle {
+    text-align: center;
+    color: $theme-WhiteColor;
+  }
+
+  .userPic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  .form-control-label {
+    font-size: 15px;
+    color: $theme-WhiteColor;
+    font-weight: 500;
+  }
+  .form-input {
+    background-color: inherit;
+    height: 48px;
+    border-radius: 10px;
+  }
+  .form-control {
+    border: none;
+    background: rgba(255, 255, 255, 0.497);
+    height: 100px;
+  }
+  .textarea {
+    height: 120px !important;
+    text-align: start;
+    resize: none;
+  }
+  .ComProfileBtn {
+    background: $theme-BlueColor;
+    width: 150px;
+    border: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: $theme-WhiteColor;
+    position: absolute;
+    right: 0;
+    margin: 10px 10px;
+  }
+}
+.maxlength{
+  color: #b1b1b1;
+  position: relative;
+  display: inline-block;
+  right: 15px;
+  // margin-bottom: 100px !important;
+  bottom: 35px;
+  float: right;
+}
+.UplaodPicture {
+  width: 225px;
+  height: 225px;
+  border-radius: 16px;
+  border: 1px solid #c5c5c5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: inherit;
+  margin: 35px auto;
+  overflow: hidden;
+}
+.form-input {
+  background-color: inherit;
+  color: #b1b1b1;
+  height: 48px;
+  border-radius: 10px;
+}

@@ -1,0 +1,99 @@
+.sidebar {
+  background: $theme-DarkColor;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  color: $theme-WhiteColor;
+  height: 100vh;
+  overflow: hidden;
+  box-shadow: 8px 0px 10px #1c4a9c29;
+  .top_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .logo {
+      width: 208px;
+      height: 50px;
+      margin: 22px 40px;
+    }
+    .logoSecond {
+      width: 47px;
+      height: 47px;
+      margin: 22px 24px;
+    }
+  }
+  .bars {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    display: table;
+    text-align: center;
+    margin: 80px auto;
+    background: $theme-BlueColor;
+    font-size: $firstfont-Size;
+    transition: 2s linear 0.9s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: inset 1px 1px 2px #FFFFFF29, 0px 3px 6px #00000029;
+  }
+  .routes {
+    margin-top: 40px;
+    gap: 10px;
+    .icon {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      color: white;
+    }
+    .link {
+      width: 225px;
+      height: 52px;
+      display: flex;
+      align-items: center;
+      color: $whitefont-Color;
+      font-size: $thirdfont-Size;
+      gap: 22px;
+      line-height: 25px;
+      padding: 0px 19px;
+      margin: 14px;
+      border-radius: 26px 0px 0px 26px;
+      transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    }
+    .link:hover {
+      color: $whitefont-Color;
+      background: $theme-BlueColor;
+      transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    }
+    .active {
+      background: $theme-BlueColor;
+      color: $whitefont-Color;
+    }
+    .link_text {
+      white-space: nowrap;
+      font-size: $thirdfont-Size;
+      font-weight: 300;
+    }
+  }
+  .logout {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    .LogoutIcon {
+      font-size: 16px;
+      font-weight: 300;
+      color: $theme-WhiteColor;
+    }
+    i {
+      margin: 0px 20px;
+      img {
+        width: 21.26px;
+        height: 18.6px;
+      }
+    }
+  }
+}

@@ -1,0 +1,108 @@
+#page{
+    position: absolute;
+    z-index: 2;
+    height: 100%;
+    top: 0;
+    background: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrap_con{
+    max-width: 50% !important;
+}
+.first{
+    background-color: rgb(51, 201, 136) ;
+    color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.head_icon{
+    font-size: 10px;
+    margin-bottom: 2px;
+}
+.content1 h5{
+    margin-top: 170px;
+}
+.lines{
+    display: flex;
+    margin-bottom: 200px;
+}
+.line1{
+    width: 27px;
+    height: 5px;
+    background-color: white;
+    border-radius: 20px;
+}
+.line2{
+    width: 17px;
+    height: 5px;
+    background-color: rgba(255, 255, 255, 0.76);
+    border-radius: 20px;
+}
+
+/* second  */
+.second{
+    background-color: white ;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.btn_wrap{
+    background-color: rgba(51, 201, 136, 0.171);
+    color:rgb(51, 201, 136);
+    border: none;
+    font-size: 25px;
+    margin-top: 81px;
+}
+.para2 p{
+    font-size: 13px;
+}
+.b_btn{
+    background-color: transparent;
+    border: 2px solid rgb(51, 201, 136);
+    border-radius: 5px;
+    font-size: 25px;
+    color: rgb(51, 201, 136);
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+.card_data .text1{
+    font-size: 12px;
+    font-weight: 700;
+}
+.card_data .text2{
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: -6px;
+}
+.wrap_card{
+    border: none !important;
+    border-radius: 10px !important;
+}
+.next_btn{
+    background-color: rgb(51, 201, 136);
+    color: white;
+    font-size: 5px;
+    font-weight: 900;
+    padding: 1px;
+    width: 100px;
+    border: 2px solid rgb(51, 201, 136);
+    border-radius: 8px;
+}
+ 
+
+/* hover effect */
+.next_btn:hover{
+    background-color: transparent;
+    color: rgb(51, 201, 136);
+}
+.wrap_card:hover{
+    background-color: rgba(51, 201, 136, 0.171);
+    border: 2px solid rgb(51, 201, 136) !important;
+    
+    .b_btn{
+        background-color: rgb(51, 201, 136);
+        color: white;
+    }
+}

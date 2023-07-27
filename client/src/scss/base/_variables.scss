@@ -1,0 +1,85 @@
+//== Typography Variable
+$bodyfont: "Poppins", sans-serif;
+$headingfont: "Poppins", sans-serif;
+$firstfont-Size: 30px;
+$secondFontSize: 24px;
+$thirdfont-Size: 16px;
+$Forthfont-Size: 14px;
+$Fivefont-Size: 20px;
+$BtnRedius: 28px;
+
+//== Typography Variable
+$SemiBold: 600;
+$NormalBold: 500;
+$Regular: 400;
+
+//== Theme Typo Colors
+$whitefont-Color: #ffffff;
+$greyfont-Color: #3b3b3b;
+$headingfont-Color: #6314A8;
+$border-Color: #ebebeb;
+$boxshadow-Color: #00000029;
+
+//== Theme Color
+$theme-BlueColor: linear-gradient(270deg, #6314A8, #9D1BE0);
+$theme-OffwhiteColor: #f3f3f3;
+$theme-DarkColor: #6314A8;
+$theme-GreyColor: #f7f7f7;
+$theme-WhiteColor: #ffffff;
+$theme-threeColor: linear-gradient(180deg, #6314A8, #9D1BE0);
+
+//== Social Media Icons Color
+$facebook: #3b5999;
+$google: #d34836;
+$twitter: #1da1f2;
+$pinterest: #cb2028;
+$youtube: #cc332d;
+$reddit: #ff4500;
+$linkedin: #0077b5;
+$linkedin: #05286163;
+$linkedin: rgba(5, 40, 97, 0.486);
+
+//setAlign
+$centerAlign: (
+  display: flex,
+  align-items: center,
+  justify-content: center,
+);
+
+// Background Colors
+.bg {
+  &-theme-DarkColor {
+    background: $theme-DarkColor;
+  }
+
+  &-theme-DarkColor {
+    background-color: $theme-DarkColor;
+  }
+
+  &-theme-GreyColor {
+    background-color: $theme-GreyColor;
+  }
+
+  &-theme-WhiteColor {
+    background-color: $theme-WhiteColor;
+  }
+}
+
+// Text Colors
+.text {
+  &-theme-DarkColor {
+    color: $theme-DarkColor;
+  }
+
+  &-theme-DarkColor {
+    color: $theme-DarkColor;
+  }
+
+  &-theme-GreyColor {
+    color: $theme-GreyColor;
+  }
+
+  &-theme-WhiteColor {
+    color: $theme-WhiteColor;
+  }
+}
